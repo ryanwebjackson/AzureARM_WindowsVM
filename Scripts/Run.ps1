@@ -1,0 +1,1 @@
+.\Deploy-AzureResourceGroup.ps1 -ResourceGroupLocation NorthEurope -ResourceGroupName MyResourceGroup -UploadArtifacts -StorageAccountName mystorageaccount1234 -StorageAccountResourceGroupName mySARGN -TemplateFile ..\Templates\WindowsVirtualMachine.json -TemplateParametersFile ..\Tenplates\WindowzVirtualMachine.param.dev.json
